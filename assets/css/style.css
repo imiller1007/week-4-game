@@ -1,0 +1,107 @@
+@font-face {
+    font-family: alarmClock;
+    src: url(../fonts/alarm-clock.ttf);
+}
+
+@font-face {
+    font-family: daysLater;
+    src: url(../fonts/28-days-later.ttf);
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+#title{
+    background-color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    color: red;
+    font-family: alarmClock;
+    font-size: 300%;
+    width:40%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#instructions{
+    background-color: rgb(71, 64, 64);
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    color: yellow;
+    font-family: daysLater;
+    width:40%;
+    font-size: 125%;
+    line-height: 115%;
+    margin-bottom: 5px;
+}
+
+#random{
+    background-color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    color: red;
+    font-family: alarmClock;
+    font-size: 565%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#winLoss{
+    float:left;
+    clear: right;
+}
+
+#buttons{
+    clear: both;
+    background-color: rgb(71, 64, 64);
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+.stats{
+    background-color: rgb(71, 64, 64);
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    color: yellow;
+    font-family: daysLater;
+    font-size: 125%;
+}
+
+.counter{
+    background-color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    color: red;
+    font-family: alarmClock;
+    font-size: 100%;
+}
+
+#scoreboard{
+    background-color: rgb(71, 64, 64);
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    color: yellow;
+    font-family: daysLater;
+    font-size: 140%;
+    width: 40%;
+}
+
+#myScore{
+    background-color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-color: gray;
+    color: red;
+    font-family: alarmClock;
+    font-size: 240%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bomb Defusal!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+
+<h1 id="title">BOMB DEFUSAL</h1>
+
+<div id="instructions">
+    <br>
+    <p>1. You will be given a random number at the start of the game.</p>
+    
+    <p>2. There are four buttons below. By clicking on a button you will add a specific amount of points to your total score.</p>
+    
+    <p>3.You defuse the bomb by matching your total score to the random number, the bomb detonates if your total score goes above the random number.</p>
+    
+    <p>4. The value of each button is hidden from you until you click on it.</p>
+    
+    <p>5. Each time when the game starts, the game will change the values of each button.
+</div>
+
+<div id="random">
+    <h1 id="randy">888</h1>
+</div>
+
+<div id="winLoss">
+    <p id="wins" class="stats">Defusals: </p> <p id="winCount" class="counter">0</p>
+    
+    <p id="losses" class="stats">Disasters: </p> <p id="lossCount" class="counter">0</p>
+</div>
+
+<div id="buttons">
+        <input type="image" src="assets/images/blueButton.png" width=100px height=100px id="blue" class="button" />
+        <input type="image" src="assets/images/pinkButton.png" width=100px height=100px id="pink" class="button" />
+        <input type="image" src="assets/images/greenButton.png" width=100px height=100px id="green" class="button" />
+        <input type="image" src="assets/images/redButton.png" width=100px height=100px id="red" class="button" />
+        <img src="http://freepngimages.com/wp-content/uploads/2016/10/yellow-caution-sign-health-and-safety.png" width=100px height=100px>
+</div>
+
+<div id="scoreboard">
+    <p>Your total score is:</p>
+    <h1 id="myScore">0</h1>
+</div>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
